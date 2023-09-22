@@ -1,0 +1,43 @@
+.light-img{
+    height: 130px;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.cat{
+    height: 190px;
+    width:190px
+
+}
+button{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+@media all and(max-width:576px){
+    .cat{
+        height:100px;
+        width:100px;
+    }
+    .main-container{
+        height: 200px;
+        width:200px;
+    }
+    .light-img{
+        height: 100px;
+    }
+}
